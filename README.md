@@ -83,6 +83,51 @@ php -S localhost:8000
 
 Then open `http://localhost:8000` in your browser.
 
+## 🌐 Deployment
+
+### Deploy to Vercel (Recommended)
+
+#### Option 1: GitHub Integration (Easiest)
+
+1. Go to [vercel.com](https://vercel.com) and sign in with your GitHub account
+2. Click "Add New Project"
+3. Import your repository: `UsmanRajput1111/my-port-69`
+4. Vercel will auto-detect it's a static site
+5. Click "Deploy" - your site will be live in seconds!
+
+Your site will be available at: `https://my-port-69.vercel.app` (or a custom domain if you set one up)
+
+#### Option 2: Using Vercel CLI
+
+1. Install Vercel CLI (if not already installed):
+   ```bash
+   npm i -g vercel
+   ```
+
+2. Login to Vercel:
+   ```bash
+   vercel login
+   ```
+
+3. Deploy your project:
+   ```bash
+   vercel
+   ```
+
+4. Follow the prompts to complete deployment
+
+5. For production deployment:
+   ```bash
+   vercel --prod
+   ```
+
+### Deploy to GitHub Pages
+
+1. Go to your repository settings on GitHub
+2. Navigate to "Pages" section
+3. Select the source branch (master) and root folder
+4. Save - your site will be available at `https://usmanrajput1111.github.io/my-port-69/`
+
 ## 📝 Customization
 
 ### Update Personal Information
